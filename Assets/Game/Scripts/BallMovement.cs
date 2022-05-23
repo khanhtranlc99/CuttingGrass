@@ -108,8 +108,9 @@ public class BallMovement : MonoBehaviour {
         {
             //anim.SetBool("run", true);
 
+
         }
-        transform.GetChild(0).transform.Rotate(0, 0, 90f); //my code//
+        transform.GetChild(0).transform.Rotate(0, 0, 90f ); //my code//
     }
 
     public void ResetBall()

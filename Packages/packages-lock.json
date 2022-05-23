@@ -7,6 +7,36 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.google.external-dependency-manager": {
+      "version": "file:../Assets/ThirdParty/com.google.external-dependency-manager-1.2.169.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "com.google.firebase.analytics": {
+      "version": "file:../Assets/ThirdParty/com.google.firebase.analytics-8.8.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.app": "8.8.0"
+      }
+    },
+    "com.google.firebase.app": {
+      "version": "file:../Assets/ThirdParty/com.google.firebase.app-8.8.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.169"
+      }
+    },
+    "com.google.firebase.remote-config": {
+      "version": "file:../Assets/ThirdParty/com.google.firebase.remote-config-8.8.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.app": "8.8.0"
+      }
+    },
     "com.unity.ads": {
       "version": "3.7.5",
       "depth": 0,

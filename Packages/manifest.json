@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "com.google.external-dependency-manager": "file:../Assets/ThirdParty/com.google.external-dependency-manager-1.2.169.tgz",
+    "com.google.firebase.analytics": "file:../Assets/ThirdParty/com.google.firebase.analytics-8.8.0.tgz",
+    "com.google.firebase.app": "file:../Assets/ThirdParty/com.google.firebase.app-8.8.0.tgz",
+    "com.google.firebase.remote-config": "file:../Assets/ThirdParty/com.google.firebase.remote-config-8.8.0.tgz",
     "com.unity.ads": "3.7.5",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.formats.fbx": "4.1.2",
